@@ -28,7 +28,7 @@ header img {
   padding: 10px;
 }
 
-main {
+.main-login {
   max-width: 400px;
   margin-top: 20px;
   padding: 20px;
@@ -73,7 +73,8 @@ main {
 }
 
 input[type=text],
-input[type=password] {
+input[type=password],
+input[type=email] {
   width: 100%;
   padding: 10px;
   margin-top: 5px;

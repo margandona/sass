@@ -11,16 +11,29 @@
         <img src="assets/img/logo-dl.png" alt="Logo">
         <h1>Blog FrontEnd</h1>
     </header>
-    <main>
+    <main class="main-login">
         <h2>Bienvenido</h2>
         <form action="/submit-your-login-form" method="POST">
             <div class="input-group">
-                <label for="username">Usuario:</label>
-                <input type="text" id="username" name="username" required>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
             </div>
             <div class="input-group">
-                <label for="password">Clave:</label>
-                <input type="password" id="password" name="password" required>
+                <label for="last-name"></label>
+                <input type="text" id="last-name name="last-name" placeholder="Ingresa tu apellido" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="correo"></label>
+                <input type="email" id="correo" name="correo" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Contraseña">
+            </div>
+            <div class="input-group">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Confirma tu contraseña">
             </div>
             <div class="input-group remember-forgot">
                 <input type="checkbox" id="remember" name="remember">
