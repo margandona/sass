@@ -4,4 +4,8 @@
     padding: 20px;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
 }

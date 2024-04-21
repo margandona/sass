@@ -3,7 +3,7 @@
 
 En esta solución no se están aplicando los estilos para la versión responsiva, ya que no es un requerimiento obligatorio*/
 
-.body-blog {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ En esta solución no se están aplicando los estilos para la versión responsiva
     color: #171717;
 }
 
-.bcontainer {
+.container {
     max-width: 1280px;
     margin: 0 auto;
 }
