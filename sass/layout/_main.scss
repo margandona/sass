@@ -1,5 +1,5 @@
 .main-login {
-    max-width: 400px;
+    max-width: max-content;
     margin-top: 20px;
     padding: 20px;
     background: #fff;
@@ -7,5 +7,12 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
 
+.cont-suscripcion{
+    background-color: $color-button-hover;
+    border-radius: 15px;
+    height: 200px;
+    
 }

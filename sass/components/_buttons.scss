@@ -2,7 +2,7 @@
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid $color-bordes;
     border-radius: 4px;
     background-color: $color-button;
     color: $color-white;
@@ -16,7 +16,7 @@
   
   .btn-google {
     background-color: $color-white;
-    color: black;
+    color: $color-negro;
     text-align: center;
   
     &:hover {
@@ -29,5 +29,21 @@
     vertical-align: middle;
     margin-right: 8px;
     background-color: $color-white;
+  }
+
+  .btn-suscripcion {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30%;
+    border: 1px solid $color-bordes;
+    border-radius: 4px;
+    background-color: $color-button-suscripcion;
+    color: $color-white;
+    font-size: 16px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: $color-button-suscripcion-hover;
+    }
   }
   
